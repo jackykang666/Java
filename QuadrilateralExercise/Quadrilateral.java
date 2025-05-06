@@ -1,4 +1,4 @@
-package 計算圖形面積練習;
+package QuadrilateralExercise;
 
 public class Quadrilateral {
     private Point p1, p2, p3, p4;

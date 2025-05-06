@@ -1,4 +1,4 @@
-package 計算圖形面積練習;
+package QuadrilateralExercise;
 
 public class Rectangle extends Quadrilateral {
     public Rectangle(double x1, double y1, double width, double height) {
@@ -18,9 +18,11 @@ public class Rectangle extends Quadrilateral {
     }
 
     public String toString() {
-        return "Coordinates of Rectangle are:\n" + getP1() + ", " + getP2() + ", " + getP3() + ", " + getP4() + "\n" +
-        "Width is" + getWidth() + "\n" +
-        "Heigth is" + getHeight() + "\n" +
-        "Area is" + getArea();
+        return "Coordinates of Rectangle are:\n" +
+               getP1() + ", " + getP2() + ", " + getP3() + ", " + getP4() + "\n" +
+               "Width is: " + getWidth() + "\n" +
+               "Height is: " + getHeight() + "\n" +
+               "Area is: " + getArea();
     }
 }
+

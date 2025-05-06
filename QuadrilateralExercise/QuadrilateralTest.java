@@ -1,4 +1,4 @@
-package 計算圖形面積練習;
+package QuadrilateralExercise;
 
 public class QuadrilateralTest {
     public static void main(String[] args) {
@@ -10,3 +10,4 @@ public class QuadrilateralTest {
         System.out.println(r);
     }
 }
+
