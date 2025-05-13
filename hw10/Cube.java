@@ -16,6 +16,6 @@ public class Cube extends ThreeDimensionalShape {
     }
 
     public String toString() {
-        return String.format("Cube [Side: %.2f, Surface Area: %.2f, Volume: %2f]", side, getSurfaceArea(), getVolume());
+        return String.format("Cube [Side: %.2f, Surface Area: %.2f, Volume: %.2f]", side, getSurfaceArea(), getVolume());
     }
 }
